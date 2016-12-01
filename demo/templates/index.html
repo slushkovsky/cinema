@@ -1,0 +1,24 @@
+<!DOCTYPE html> 
+
+<html> 
+    <head>
+        <title>Demo</title>     
+
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    </head>
+
+    <body> 
+        <div class="col-md-4 col-md-offset-4"> 
+            <form method="POST" enctype="multipart/form-data"> 
+                {% csrf_token %}
+                <input class="form-control" type="file" name="file">
+                
+                <div class="text-center"> 
+                  <button type="submit" class="btn btn-default">Send</button> 
+                </div>
+            </form> 
+
+            {{ predict }}
+        </div>
+    </body> 
+</html> 

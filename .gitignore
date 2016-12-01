@@ -1,0 +1,12 @@
+# DB 
+*.sqlite3
+
+# Byte-compiled python
+__pycache__/
+*.py[cod]
+
+# Uploaded files
+upload/
+
+# emacs
+*.*~
