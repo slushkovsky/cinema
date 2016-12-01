@@ -1,5 +1,9 @@
 # cinema
 
+## Additional dependencies (python) 
+
+OpenCV (cv2 package)
+
 
 ## Demo run 
 
